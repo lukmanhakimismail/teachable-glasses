@@ -1,0 +1,15 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background: #f4f4f4;
+    padding: 20px;
+}
+#webcam-container canvas {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    max-width: 100%;
+}
+#label-container div {
+    font-size: 18px;
+    margin-top: 10px;
+}
