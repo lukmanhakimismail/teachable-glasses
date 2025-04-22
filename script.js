@@ -9,7 +9,7 @@ async function init() {
     maxPredictions = model.getTotalClasses();
 
     const flip = true;
-    webcam = new tmImage.Webcam(224, 224, flip);
+    webcam = new tmImage.Webcam(400, 400, flip);
     await webcam.setup();
     await webcam.play();
     window.requestAnimationFrame(loop);
