@@ -14,7 +14,7 @@ async function init() {
     await webcam.play();
     window.requestAnimationFrame(loop);
 
-    document.getElementById("webcam").appendChild(webcam.canvas);
+    document.getElementById("webcam-container").appendChild(webcam.canvas);
     labelContainer = document.getElementById("label-container");
     for (let i = 0; i < maxPredictions; i++) {
         labelContainer.appendChild(document.createElement("div"));
